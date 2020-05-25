@@ -1,0 +1,4 @@
+﻿  assertExample.cpp
+  ImmutableObject.cpp
+E:\github\Cplusplus_study\workspace\ObjectAndClassTwo\ImmutableObject.cpp(11,26): error C3867: “Employee::toString”: 非标准语法；请使用 "&" 来创建指向成员的指针
+E:\github\Cplusplus_study\workspace\ObjectAndClassTwo\ImmutableObject.cpp(11,26): fatal error C1903: 无法从以前的错误中恢复；正在停止编译

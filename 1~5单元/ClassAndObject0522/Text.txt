@@ -1,0 +1,55 @@
+Declaration and Definition of Static Members(声明或定义静态成员)
+
+静态成员的声明
+	在类的定义中，关键字static声明不绑定到类独享实例和成员（该类成员无需创建对象即可访问）
+静态数据成员的定义
+	声明为“constexpr”类型的静态数据成员必须在类中声明并初始化
+	声明为“inline”(C++17起)或者“const int”类型的静态成员可以在类中声明并初始化
+	其他需在类外定义并初始化，却不带static关键字
+
+Static member(静态成员)
+* 静态数据成员具有静态存储期（static storage duration）
+
+静态存储期
+	对象的存储在程序开始时分配，在程序结束时解回收
+	只存在对象的一个实例
+	静态存储器对象未明确初始化会被自动“零初始化”
+
+Destructors(析构函数)
+
+
+
+Friend (友元)
+
+Why Friend
+	私有成员无法从类外访问
+	但有时又需要授权某些可信的函数和类访问这些私有成员
+
+Firend functions and classes
+	用firend 关键字声明友元函数或者友元类
+
+Copy Constructions(拷贝构造)
+	拷贝构造：用一个对象初始化另一个同类对象
+
+	声明拷贝构造函数（copy ctor）
+
+	Circle (Circle&);
+	Circle(const Circle&);
+
+	Invoke the copy ctor(调用拷贝ctor);
+
+	Circle c1{5.0};
+	Circle c2{c1}; 
+	Circle c3=c1;
+	Circle c4={c1}
+	Circle c5{c1};
+
+Shallow Copy vs Deep Copy(深拷贝和浅拷贝)
+	浅拷贝：数据域是一个指针，那么值拷贝指针的地址，而非指针指向的内容
+	深拷贝：拷贝指针指向的内容
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+﻿  StaticMembers.cpp
+  copyCtor.cpp
+  正在生成代码...
+StaticMembers.obj : error LNK2005: "public: static int Square::numberOfObjects" (?numberOfObjects@Square@@2HA) 已经在 copyCtor.obj 中定义
+E:\github\Cplusplus_study\ClassAndObject0522\Debug\ClassAndObject0522.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

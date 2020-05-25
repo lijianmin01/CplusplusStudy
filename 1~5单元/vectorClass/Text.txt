@@ -1,0 +1,16 @@
+vector Class
+The C++ vector Class
+	用数组存放数据时，容量大小可变
+	vector对象容量可自动增大
+
+Iterator variables should be called i,j,k,ect
+迭代变量名应该用i，j，k(此外变量名j，k应只用于嵌套循环)
+	尽量多用i做循环变量
+	尽量令i的作用限制在循环块内
+
+
+C++11 Raw String Literals(C++11 "原始/生"字符串字面量)
+
+The StackOflnteger Class 栈
+
+

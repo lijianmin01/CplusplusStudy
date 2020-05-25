@@ -1,0 +1,90 @@
+The C++ string class C++字符串类
+
+	C++使用string 类处理字符串
+	string 类中的函数
+		1、构造
+		2、追加
+		3、赋值
+		4、位置与清除
+		5、长度与容量
+		6、比较
+		7、子串
+		8、搜索
+		9、运算符
+
+Constructing a String(创建string对象)
+	Create an empty string using string's no-arg constructor(用无参构造函数创建一个空字符串)
+	Create a string object from a string value or from an array of characters(由一个字符串常量或字符串数组创建啊一个string对象)
+
+Functions at ,clear,erase,and empty
+	at(index):返回当前字符串中index位置的字符
+	clear():清空字符串
+	erase(index,n):删除字符串从index开始的n个字符
+	empty():检测字符串是否为空
+
+Comparing String(比较字符串)
+	compare()函数用于比较两个字符串。它与C语言中strcmp()函数很像
+
+Obtaining Substring(获取子串)
+	at()函数用于获取一个单独的字符；而substr()函数则可以获取一个子串
+
+	string s1{"Welcome"};
+	cout << s1.substr(0, 1) << endl;
+	cout << s1.substr(3) << endl;
+	cout << s1.substr(3, 3) << endl;
+	//W
+	//come
+	//com
+
+String Operators(字符串运算符)
+
+		|Operator|Description|
+		|------------|------------------|
+		|[]|用数组下标运算符访问字符串中的字符|
+		|=|将一个字符串的内容复制到另一个字符串|
+		|+|连接两个字符串的一个新字符串|
+		|+=|将一个字符串追加到另一个字符串的末尾|
+		|<<|将一个字符串插入一个流|
+		|>>|从一个流提取一个字符串，分界符为空格或者空结束符|
+
+	string s1 = "ABC";
+	string s2 = s1;
+	for (int i = s2.size() - 1; i >= 0; i--) {
+		cout << s2[i];
+	}
+	//CBA
+	cout << endl;
+	string s3 = s1 + "DEFG";
+	cout << s3 << endl;
+	//ABCDEFG
+
+	s1 += "ABC";
+	s2 = "ABE";
+
+	cout << (s1 == s2) << endl;
+	cout << (s1 != s2) << endl;//1
+	cout << (s1 > s2) << endl;
+	cout << (s1 >= s2) << endl;
+	cout << (s1 < s2) << endl;//1
+	cout << (s1 <= s2) << endl;//1
+
+C++11 Array 数组
+	是一个容器类，所以有迭代器（可以认为是一种用于访问成员的高级指针）
+	可直接赋值
+	知道自己大小：size()
+	能和另一个数组交换内容：fill()
+	能以指定值太填充自己：fill()
+	取某个位置的元素（做越界检查）：at()
+
+Create C++ Style Array
+	C++数组类是一个模板类，可以容纳任何类型的数据
+		#include<array>
+		std::array<数组类型，数组大小>数组名字
+		std::array<数组类型，数组大小>数组名字{值1，值2，，，}
+	限制与C风格数组相同
+		std::array<int,10> x;
+		std::array<char,5> c{'H','e','l','l','o'};
+
+
+
+

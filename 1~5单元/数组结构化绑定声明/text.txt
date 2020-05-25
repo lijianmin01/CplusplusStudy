@@ -1,0 +1,24 @@
+What is "structured binding declaration"?(什么是结构化声明)
+    结构化绑定声明是一个声明语句，意味着声明了一些标识符并对标识符做了初始化。在C++17中引入
+    将指定的一些名字绑定到初始化器的子对象或元素上
+
+Structured Binding Declaration for Array(用于原生数组的结构化绑定声明)
+    若初始化表达式为数组类型，则标识符列表中的名字绑定大偶是足足元素怒
+        标识符数量必须等于数组元素怒数量
+        标识符类型与数组元素类型一致
+
+            int priArr[]{42,21,7};
+            auto[a1,a2,a3]=priArr;//
+            const auto[b1,b2,b3](priArr);
+            auto &[c1,c2,c3]{priArr};
+            c3=14;
+
+Structured Binding Declaration for Object Data Members
+    用于对象数据成员的结构化绑定声明
+    若初始化表达式为类/结构体独享，则标识符列表中的名字绑定到类/结构体的非静态数据成员上
+        数据成员必须为公有成员
+        标识符数量必须等于数据成员的数量
+        标识符类型与数据成员类型一致
+
+    auto 后跟&，则标识符是数据成员的引用
+    auto 前可防止const，表示标识符是只读的

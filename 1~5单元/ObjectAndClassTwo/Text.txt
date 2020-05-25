@@ -1,0 +1,79 @@
+Constant Expression 与 C++11 的constexpr (常量表达式与C++11的constexpr关键字)
+
+	常量表达式是编译期可以计算值的一个表达式
+C++11 constexpr:编译期常量表达式说明符
+	constexpr说明符可在编译时计算函数或变量的值
+
+const vs constexpr
+	const:告知程序员，const修饰的内容是不会被修改的。主要目的是帮助程序员避免bug
+
+	constexpr:用在所有被要求使用“constant expression”的地方（就是constexpr修饰的东西可以在编译期计算得到的值），主要目的是让编译器能够优化代码提升性能
+
+assert and C++11 static_assert 断言与C++11的静态断言
+	Assertion is a statement to check assumptions(断言是一条检测假设成立与否的语句)
+	
+	assert:C语言的宏（Macro）,运行时检测
+	assert(bool_expr);//bool_expr为假设中断程序
+
+
+	assert帮助调试解决逻辑bug(部分代替“断点/单步调试”)
+
+What is "Declare/Declaration"(什么是声明)
+	"声明"是引入标识符并描述其类型，无论是类型，对象还是函数。编译器需要改声明，一遍识别在它成他处使用该标识符
+
+	extern int bar;
+	extern int g(int,int);l
+	double f(int,double);//extern can be omitted for function declarations
+	class foo;//no extern allowed for type declarations
+
+What is "define/definition"(什么是定义)
+	"定义"，实例化/实现这个标识符。链接器需要定义，以便对标识符的引用连接到标识符所表示的实体
+
+	int bar;
+	int g(int ihs,int rhs){return ihs*rhs;}
+	double f(int i,double d){return i+d;}
+	class foo{};
+
+Difference between a declaration and a definition(定义与声明的区别)
+	1、定义有时可取代声明，反之不行
+	2、标识符可被声明多次，但只能定义一次
+	3、定义通常伴随着编译器为标识符分配内存
+	4、简要总结
+		声明：某个地方有f00
+		定义：它在这里
+
+What is delegating constructor?(什么是代理构造/委托构造)
+	One ctor can call another ctor(一个构造函数可以调用另外的构造函数)
+	Avoiding recursive calls of target constructors(避免递归调用目标)
+
+	class A{
+	public:
+		A():A(0){};
+		A(int i):A(i,0){};
+		A(int i,int j){
+			num1=i;
+			num2=j;
+			average=(num1+num2)/2;
+		}
+	private:
+		int num1;
+		int num2;
+		int average;
+	};
+
+Immutable Objects and Classes (不可变对象和类)
+	不可改变对象：对象创建后，其内容不可改变，除非通过成员拷贝
+	不可变类：不可改变对象所属的类
+	方法：so easy ~ 删除set类型函数
+
+Another case:pointer member(另一种情况：指针成员)
+
+
+How to make a class immutable?
+* Mark all data fields private(所有数据域均设置为“私有”属性)
+* No mutator functions(没有更改器函数)
+* No accessor that would return a reference/pointer to mutable data filed object(也没有能够返回可变数据域对象的引用或指针的访问器)
+
+
+
+
