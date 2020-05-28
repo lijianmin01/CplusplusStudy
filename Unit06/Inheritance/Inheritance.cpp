@@ -7,7 +7,7 @@
 using std::cout;
 using std::endl;
 
-int main() {
+int main_Inheritance() {
 	Shape s1{ Color::blue,false };
 	Circle c1{ 3.9,Color::green,true };
 	Rectangle r1{ 4.0,1.0,Color::white,true };

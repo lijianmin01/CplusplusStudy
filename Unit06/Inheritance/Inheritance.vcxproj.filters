@@ -24,6 +24,12 @@
     <ClCompile Include="Inheritance.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BaseClassCtor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBaseClassCtor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h">
@@ -35,5 +41,10 @@
     <ClInclude Include="Shape.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
