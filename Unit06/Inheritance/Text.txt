@@ -22,3 +22,45 @@ Default Constructor in Inheritance
 	类应该在头文件中声明并在源文件中定义，两文件名字应该与类名相同
 	类成员变量不可被声明为public
 
+Constructor and Destructor Chaining(构造和析构函数链)
+	Constructor chaining(构造函数链)
+		base first，derive next
+	Destructor chaining(析构函数链)
+		derive first,base next
+
+Name Hiding in Inheritance
+		继承中的名字隐藏
+
+	Homonymous Function in Base Class is Hidden(基类同名函数被隐藏)
+		内部作用域的名字隐藏外部作用域的（同名）名字
+			派生类视作内部作用域
+			基类视作外部作用域
+	Why?
+		避免某些潜在的危险行为
+		每个类在创建时，他的函数名都是写在一张干净的白纸上面，不会被基类函数名干扰
+
+Redefining Functions(重定义函数)
+
+Redefine vs Overload(重定义与重载)
+	Overload Functions(重载函数)
+		more than one function with the same name
+		But different in at least one of the signatures
+			parameter type
+			parameter number
+			parameter sequence
+
+
+	Redefine Functions(重定义函数)
+		The functions have the same signature(特征)
+			同名
+			同参数、类型、数量、顺序
+			返回值类型
+		Defined in base class and derived class,respectively(在基类和派生类中定义)
+
+
+
+
+
+
+
+

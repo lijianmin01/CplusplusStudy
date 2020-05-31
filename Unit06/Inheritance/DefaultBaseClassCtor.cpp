@@ -17,7 +17,7 @@ public:
 	B(int j):A(j) { cout << "B(" << j << ")" << endl; }
 };
 
-int main_very¡ª¡ªÄ§»Ã() {
+int main_very__Ä§»Ã() {
 	A a1{};
 	A a2{ 1 };
 	B b1{};

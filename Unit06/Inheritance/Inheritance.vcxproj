@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="BaseClassCtor.cpp" />
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CtorChain.cpp" />
     <ClCompile Include="DefaultBaseClassCtor.cpp" />
     <ClCompile Include="Inheritance.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RedefineFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />

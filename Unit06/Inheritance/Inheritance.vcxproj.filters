@@ -30,6 +30,12 @@
     <ClCompile Include="DefaultBaseClassCtor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CtorChain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedefineFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h">

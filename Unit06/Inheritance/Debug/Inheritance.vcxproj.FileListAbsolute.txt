@@ -1,0 +1,2 @@
+E:\github\CplusplusStudy\Unit06\Inheritance\Debug\Inheritance.exe
+E:\github\CplusplusStudy\Unit06\Inheritance\Debug\Inheritance.pdb
