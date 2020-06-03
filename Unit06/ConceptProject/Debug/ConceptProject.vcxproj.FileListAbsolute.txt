@@ -1,0 +1,2 @@
+E:\github\CplusplusStudy\Unit06\ConceptProject\Debug\ConceptProject.exe
+E:\github\CplusplusStudy\Unit06\ConceptProject\Debug\ConceptProject.pdb
