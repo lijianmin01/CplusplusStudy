@@ -26,5 +26,8 @@
     <ClCompile Include="运行时多态.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Accessibility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

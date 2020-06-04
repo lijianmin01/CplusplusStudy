@@ -26,3 +26,8 @@ C++11：Using override and final
 
 	final特殊标识符，指定派生类不能覆写虚函数（是最终的）
 
+
+Abstract Class and Pure Virtual Function
+	抽象类与纯虚数类
+
+

@@ -142,6 +142,7 @@
     <Text Include="文本.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Accessibility.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
     <ClCompile Include="运行时多态.cpp" />
   </ItemGroup>
