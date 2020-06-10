@@ -1,0 +1,13 @@
+﻿  源.c
+E:\github\CplusplusStudy\Unit06\test\源.c(12,15): warning C4047: “=”:“List *”与“Node *”的间接级别不同
+E:\github\CplusplusStudy\Unit06\test\源.c(15,1): warning C4047: “初始化”:“List”与“List *”的间接级别不同
+E:\github\CplusplusStudy\Unit06\test\源.c(46,10): warning C4047: “=”:“List”与“List *”的间接级别不同
+E:\github\CplusplusStudy\Unit06\test\源.c(32,1): warning C4047: “初始化”:“List”与“List *”的间接级别不同
+E:\github\CplusplusStudy\Unit06\test\源.c(36,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(41,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(51,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(55,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(65,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(66,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(83,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\github\CplusplusStudy\Unit06\test\源.c(84,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

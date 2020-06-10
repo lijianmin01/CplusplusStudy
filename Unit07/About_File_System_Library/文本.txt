@@ -1,0 +1,15 @@
+C++17： About File System Library
+	C++17的文件系统库简介
+
+About std::filesystem(std::filesystem简介)
+	标准库的filesystem提供在文件系统与其组件，例如路径、常规文件与目录上进行的操作方法
+Some terms(一些术语)
+	File(文件)：持有数据的文件系统对象，能被写入或读取。3文件有名称和属性，属性之一是文件类型
+
+	Path(路径)：标识文件所处位置的一系列元素，可能包含文件名
+路径类：
+
+	namespace fs = std::filesystem;
+	fs::path p{"CheckPath.cpp"}
+
+
