@@ -5,7 +5,7 @@
 using std::cout;
 using std::endl;
 
-int main() {
+int main_checkpath() {
 	//定义别名
 	namespace fs = std::filesystem;
 	//定义路径，使用生字符串、转移字符串、正斜杠字符串

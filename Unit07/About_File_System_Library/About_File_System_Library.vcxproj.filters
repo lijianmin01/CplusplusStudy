@@ -26,5 +26,14 @@
     <ClCompile Include="CheckPath.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PathQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathOperators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSpace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
