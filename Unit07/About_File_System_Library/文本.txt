@@ -12,4 +12,14 @@ Some terms(一些术语)
 	namespace fs = std::filesystem;
 	fs::path p{"CheckPath.cpp"}
 
+What is a stream ?(什么是流？)
+	A stream is a sequence of data(流式一个数据序列)
+
+Writing Data to a File
+	ofstrem 可想文本文件写入数据
+
+
+
+Auto type recognition(自动类型识别)
+
 

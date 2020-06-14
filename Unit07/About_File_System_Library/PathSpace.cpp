@@ -9,7 +9,7 @@ using std::cout;
 using std::endl;
 namespace fs = std::filesystem;
 
-int main() {
+int main_pathSpace() {
 
 	//定义路径对象
 	fs::path p{ "C:\\" };

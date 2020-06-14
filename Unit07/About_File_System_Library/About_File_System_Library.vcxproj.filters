@@ -35,5 +35,14 @@
     <ClCompile Include="PathSpace.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BufferedIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

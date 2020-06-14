@@ -144,7 +144,10 @@
     <Text Include="文本.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BufferedIO.cpp" />
     <ClCompile Include="CheckPath.cpp" />
+    <ClCompile Include="FileInput.cpp" />
+    <ClCompile Include="FileOutput.cpp" />
     <ClCompile Include="PathOperators.cpp" />
     <ClCompile Include="PathQuery.cpp" />
     <ClCompile Include="PathSpace.cpp" />
